@@ -1,0 +1,21 @@
+public class CounterClass {
+
+    int i = 0;
+    static int j = 0;
+
+    public CounterClass() {
+        i++;
+        j++;
+    }
+    public static void main(String[] args) {
+
+        CounterClass counter = new CounterClass();
+        CounterClass counter2 = new CounterClass();
+
+        System.out.println(counter.i);
+        System.out.println(counter2.i);
+
+        System.out.println(CounterClass.j);
+    }
+
+}
