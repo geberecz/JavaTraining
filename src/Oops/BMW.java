@@ -2,13 +2,33 @@ package Oops;
 
 public class BMW extends Car {
 
-    static String name = "BMW ";
+    BMW() {
+        super();
+        System.out.println("Creating BMW Constructor");
+    }
+    String name = "BMW ";
+
+    public void getName() {
+        System.out.println(name);
+        System.out.println(super.name);
+    }
+
+    public void setWheels()
+
+    public void run() {
+        System.out.println("BMW is running");
+        super.run();
+    }
 
     public static void main(String[] args) {
-        Car car = new Car();
 
+        /*Car car = new Car();
         System.out.print(name);
         car.run();
+        */
+
+        BMW bmw = new BMW();
+        bmw.run();
     }
 
 }
