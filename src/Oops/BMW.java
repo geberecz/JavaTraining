@@ -13,7 +13,7 @@ public class BMW extends Car {
         System.out.println(super.name);
     }
 
-    public void setWheels()
+    //public void setWheels();
 
     public void run() {
         System.out.println("BMW is running");
