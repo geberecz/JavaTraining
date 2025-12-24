@@ -10,6 +10,7 @@ public class FirstJavaProgram {
         System.out.println(varSec);
     }
     public static void main(String[] args) {
+
         System.out.println("Hello world");
         System.out.println("My first method in the first class");
 
